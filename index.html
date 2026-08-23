@@ -1719,12 +1719,28 @@ const FORM_ENDPOINT = 'https://formspree.io/f/mvkpyepy';
     const btn=form.querySelector('button[type=submit]');
     btn.disabled=true;btn.style.opacity='.6';
 
-    if(FORM_ENDPOINT){
-      try{
-        await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},
-          body:JSON.stringify(data)});
-      }catch(e){/* igual mostramos la confirmación: el dato queda guardado abajo */}
+   if (FORM_ENDPOINT) {
+  try {
+    const response = await fetch(FORM_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
+
+    if (!response.ok) {
+      throw new Error(`Formspree error: ${response.status}`);
     }
+  } catch (error) {
+    console.error('No se pudo enviar el formulario:', error);
+    btn.disabled = false;
+    btn.style.opacity = '';
+    alert('No se pudo enviar el mensaje. Intentá nuevamente.');
+    return;
+  }
+}
     try{
       const prev=JSON.parse(localStorage.getItem('metteoro_leads')||'[]');
       prev.push({...data,ts:new Date().toISOString()});
