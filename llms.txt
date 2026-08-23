@@ -1,0 +1,112 @@
+# METTEORO
+
+> Automatización de procesos y optimización operativa para PyMEs en Argentina.
+> Eliminamos tareas repetitivas, evitamos olvidos y organizamos procesos para que tu negocio funcione con menos esfuerzo y más control.
+
+## Sobre METTEORO
+
+METTEORO es una consultora argentina especializada en automatización de procesos operativos para pequeñas y medianas empresas.
+Diseñamos e implementamos workflows y agentes inteligentes que eliminan tareas manuales, evitan olvidos y reducen la dependencia de personas específicas.
+
+**Ubicación:** Córdoba, Argentina
+**Sitio web:** https://metteoro.com.ar
+**Contacto:** metteoro.contacto@gmail.com
+**WhatsApp:** +54 9 351 252-8373
+**Instagram:** [@metteoro_sistemas](https://www.instagram.com/metteoro_sistemas/)
+**TikTok:** [@metteoro.sistemas](https://www.tiktok.com/@metteoro.sistemas)
+
+## Qué hacemos
+
+- **Automatización de procesos operativos:** Eliminamos tareas repetitivas como copiar datos entre sistemas, enviar avisos, generar reportes y actualizar planillas.
+- **Seguimiento automático:** Ninguna consulta, tarea o oportunidad queda sin seguimiento. El sistema asigna, recuerda y registra.
+- **Workflows personalizados:** Diseñamos flujos de trabajo fijos para procesos que siempre siguen los mismos pasos.
+- **Agentes inteligentes:** Cuando el proceso requiere análisis y decisión, implementamos agentes con IA que clasifican, priorizan y derivan.
+- **Consultoría operativa:** Diagnosticamos dónde se pierde tiempo y diseñamos la solución más simple posible.
+
+## Servicios
+
+### Workflow (Automatización de flujos)
+Para procesos con pasos fijos y repetitivos.
+- Enviar emails y respuestas automáticas
+- Actualizar CRM o planillas
+- Generar reportes periódicos
+- Crear tareas y asignarlas al equipo
+- Enviar recordatorios y avisos
+
+**Características:** Barato, predecible, casi no se rompe.
+
+### Agente (IA con criterio)
+Para procesos que requieren análisis y decisión.
+- Clasificar consultas entrantes
+- Responder preguntas frecuentes
+- Analizar documentos y extraer datos
+- Priorizar oportunidades según criterio
+
+**Características:** Flexible, para casos que varían, con supervisión humana.
+
+## Casos de uso
+
+- **Ventas:** Seguimiento automático, respuesta inmediata, oportunidades organizadas, nada queda sin contactar.
+- **Atención al cliente:** Respuestas rápidas, clasificación automática, derivación correcta, historial centralizado.
+- **Administración:** Carga automática de datos, validaciones, reportes generados.
+- **Operaciones:** Gestión de tareas, aprobaciones, alertas automáticas.
+- **RRHH:** Onboarding automatizado, gestión de documentación, seguimiento de empleados.
+
+## Metodología de trabajo
+
+1. **Diagnóstico:** Analizamos dónde se pierde tiempo. Miramos cómo trabaja el equipo hoy. Salida: lista de fricciones priorizadas.
+2. **Diseño:** Diseñamos la solución más simple posible. Definimos qué se automatiza y qué queda en manos de una persona. Salida: plan concreto y alcance.
+3. **Implementación:** La ponemos a funcionar sobre las herramientas que ya usa el cliente. Acompañamos al equipo en el cambio. Salida: proceso funcionando.
+4. **Mejora continua:** Medimos y optimizamos. Mantenemos el proceso vivo con ajustes periódicos. Salida: seguimiento y ajustes.
+
+## Problemas que resolvemos
+
+- Consultas que quedan sin seguimiento (WhatsApp, email, formularios, redes)
+- Tareas repetitivas que consumen horas cada semana (copiar, pegar, avisar, recordar)
+- Información cargada múltiples veces en distintos sistemas
+- Procesos que dependen de una sola persona
+- Falta de visibilidad en tiempo real del estado de la operación
+- Errores por trabajo manual (números mal copiados, avisos que no salen, pasos saltados)
+
+## Diagnóstico gratuito
+
+Ofrecemos un diagnóstico gratuito de 30 minutos para analizar tu operación y mostrarte dónde está el tiempo perdido.
+
+**Agendar:** https://metteoro.com.ar/#diagnostico
+**WhatsApp:** https://wa.me/5493512528373
+
+## Preguntas frecuentes
+
+### ¿Necesito cambiar las herramientas que ya uso?
+No necesariamente. La mayoría de las soluciones se integran con las herramientas que ya forman parte de tu operación.
+
+### ¿Mi empresa es demasiado pequeña para automatizar?
+No. Muchas veces los mayores beneficios aparecen en equipos pequeños, donde las tareas manuales consumen una parte importante del tiempo disponible.
+
+### ¿Qué tipo de procesos pueden mejorarse?
+Procesos administrativos, comerciales, operativos y de atención al cliente. Si una tarea se repite con frecuencia o depende de copiar información entre sistemas, probablemente exista una oportunidad de mejora.
+
+### ¿Todo necesita Inteligencia Artificial?
+No. En muchos casos un flujo de trabajo bien diseñado resuelve el problema de forma más simple y económica. Utilizamos IA únicamente cuando aporta valor real.
+
+### ¿Cuánto tiempo demora una implementación?
+Depende de la complejidad del proceso. Algunas mejoras pueden implementarse en pocos días, mientras que sistemas más amplios requieren varias semanas.
+
+### ¿Y si no tengo claro qué automatizar?
+Es lo más común. El diagnóstico gratuito está pensado para eso: recorrer tu operación, identificar las fricciones y mostrarte dónde hay oportunidad real.
+
+### ¿Cómo se mide el resultado?
+Se mide en tiempo recuperado, tareas que dejan de depender de una persona y seguimiento que antes no existía. No en promesas genéricas.
+
+### ¿Trabajan con empresas de cualquier rubro?
+Sí. Los principios son los mismos: tareas repetitivas, información dispersa, procesos que se olvidan. El rubro cambia, el problema no.
+
+## Enlaces
+
+- [Sitio principal](https://metteoro.com.ar/)
+- [Cómo funciona](https://metteoro.com.ar/#como-funciona)
+- [Casos de uso](https://metteoro.com.ar/#casos)
+- [Preguntas frecuentes](https://metteoro.com.ar/#faq)
+- [Agendar diagnóstico gratuito](https://metteoro.com.ar/#diagnostico)
+- [Política de privacidad](https://metteoro.com.ar/privacidad.html)
+- [Términos y condiciones](https://metteoro.com.ar/terminos.html)

@@ -1,0 +1,94 @@
+# robots.txt — metteoro.com.ar
+# AEO: Allow all AI crawlers for Answer Engine Optimization
+# Updated: 2026-08-23
+
+# ─── General crawlers ───
+User-agent: *
+Allow: /
+Disallow: /privacidad.html
+Disallow: /terminos.html
+
+# ─── Google (Search + AI Overviews) ───
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ─── OpenAI / ChatGPT ───
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ─── Anthropic / Claude ───
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ─── Google Gemini ───
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GeminiBot
+Allow: /
+
+# ─── Perplexity ───
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ─── xAI / Grok ───
+User-agent: Grok-Bot
+Allow: /
+
+User-agent: xAI-User
+Allow: /
+
+# ─── Common Crawl (used by many AI labs) ───
+User-agent: CCBot
+Allow: /
+
+# ─── Apple (Siri / Apple Intelligence) ───
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ─── Microsoft / Bing / Copilot ───
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# ─── Meta (AI training) ───
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ─── Cohere ───
+User-agent: cohere-ai
+Allow: /
+
+# ─── Bytespider (TikTok / Douyin AI) ───
+User-agent: Bytespider
+Allow: /
+
+# ─── Yandex ───
+User-agent: YandexBot
+Allow: /
+
+# ─── Sitemaps ───
+Sitemap: https://metteoro.com.ar/sitemap.xml
