@@ -1,7 +1,7 @@
 # METTEORO
 
 > Automatización de procesos y optimización operativa para PyMEs en Argentina.
-> Eliminamos tareas repetitivas, evitamos olvidos y organizamos procesos para que tu negocio funcione con menos esfuerzo y más control.
+> Eliminamos tareas repetitivas y hacemos que ninguna consulta quede sin seguimiento, sobre las herramientas que ya usás.
 
 ## Sobre METTEORO
 
@@ -14,66 +14,39 @@ Diseñamos e implementamos workflows y agentes inteligentes que eliminan tareas 
 **WhatsApp:** +54 9 351 252-8373
 **Instagram:** [@metteoro_sistemas](https://www.instagram.com/metteoro_sistemas/)
 **TikTok:** [@metteoro.sistemas](https://www.tiktok.com/@metteoro.sistemas)
+**Trabajo:** remoto, con clientes de todo el país.
 
 ## Qué hacemos
 
 - **Automatización de procesos operativos:** Eliminamos tareas repetitivas como copiar datos entre sistemas, enviar avisos, generar reportes y actualizar planillas.
 - **Seguimiento automático:** Ninguna consulta, tarea o oportunidad queda sin seguimiento. El sistema asigna, recuerda y registra.
 - **Workflows personalizados:** Diseñamos flujos de trabajo fijos para procesos que siempre siguen los mismos pasos.
-- **Agentes inteligentes:** Cuando el proceso requiere análisis y decisión, implementamos agentes con IA que clasifican, priorizan y derivan.
-- **Consultoría operativa:** Diagnosticamos dónde se pierde tiempo y diseñamos la solución más simple posible.
+- **Agentes inteligentes:** Cuando el proceso requiere análisis y decisión, implementamos agentes con IA que clasifican, priorizan y derivan, con supervisión humana.
+- **Consultoría operativa:** Diagnosticamos dónde se pierde tiempo y diseñamos la solución más simple que funcione.
 
-## Servicios
+## Enfoque
 
-### Workflow (Automatización de flujos)
-Para procesos con pasos fijos y repetitivos.
-- Enviar emails y respuestas automáticas
-- Actualizar CRM o planillas
-- Generar reportes periódicos
-- Crear tareas y asignarlas al equipo
-- Enviar recordatorios y avisos
+No usamos IA porque suena bien: usamos la solución adecuada. Si los pasos son siempre los mismos, un workflow simple es más barato, predecible y confiable. Si el caso varía y hay que analizar y decidir, un agente con supervisión. Tus cuentas, tus datos y tu facturación quedan a tu nombre; nosotros implementamos y mantenemos.
 
-**Características:** Barato, predecible, casi no se rompe.
+## Qué ordenamos (recorridos)
 
-### Agente (IA con criterio)
-Para procesos que requieren análisis y decisión.
-- Clasificar consultas entrantes
-- Responder preguntas frecuentes
-- Analizar documentos y extraer datos
-- Priorizar oportunidades según criterio
+- **De consulta a visita** (inmobiliarias, concesionarias, servicios): consulta → clasificación → seguimiento → visita. Ninguna consulta queda sin responder.
+- **Turnos sin ida y vuelta** (veterinarias, salones, consultorios): consulta → disponibilidad → turno → recordatorio. Menos no-show.
+- **Presupuestos que no se enfrían** (talleres, mueblerías, trabajo a medida): pedido → datos → cotización → seguimiento hasta que decide.
+- **Casos y documentos ordenados** (estudios, profesionales): consulta → datos → documentación → revisión humana.
 
-**Características:** Flexible, para casos que varían, con supervisión humana.
+## Cómo arrancamos (4 etapas)
 
-## Casos de uso
+1. **Llamada inicial** — sin costo, 30 minutos. Entendemos tu operación y vemos si hay algo que valga la pena ordenar; si no lo hay, lo decimos. Salida: claridad.
+2. **Diagnóstico** — servicio pago (alcance y valor definidos antes de arrancar). Salida: mapa de oportunidades priorizado + plan.
+3. **Implementación** — la solución más simple que funcione, sobre las herramientas del cliente, con pruebas y documentación. Salida: proceso andando.
+4. **Mantenimiento** — monitoreo, ajustes y mejoras continuas. Salida: sistema que no se degrada.
 
-- **Ventas:** Seguimiento automático, respuesta inmediata, oportunidades organizadas, nada queda sin contactar.
-- **Atención al cliente:** Respuestas rápidas, clasificación automática, derivación correcta, historial centralizado.
-- **Administración:** Carga automática de datos, validaciones, reportes generados.
-- **Operaciones:** Gestión de tareas, aprobaciones, alertas automáticas.
-- **RRHH:** Onboarding automatizado, gestión de documentación, seguimiento de empleados.
+## Cómo contactar
 
-## Metodología de trabajo
-
-1. **Diagnóstico:** Analizamos dónde se pierde tiempo. Miramos cómo trabaja el equipo hoy. Salida: lista de fricciones priorizadas.
-2. **Diseño:** Diseñamos la solución más simple posible. Definimos qué se automatiza y qué queda en manos de una persona. Salida: plan concreto y alcance.
-3. **Implementación:** La ponemos a funcionar sobre las herramientas que ya usa el cliente. Acompañamos al equipo en el cambio. Salida: proceso funcionando.
-4. **Mejora continua:** Medimos y optimizamos. Mantenemos el proceso vivo con ajustes periódicos. Salida: seguimiento y ajustes.
-
-## Problemas que resolvemos
-
-- Consultas que quedan sin seguimiento (WhatsApp, email, formularios, redes)
-- Tareas repetitivas que consumen horas cada semana (copiar, pegar, avisar, recordar)
-- Información cargada múltiples veces en distintos sistemas
-- Procesos que dependen de una sola persona
-- Falta de visibilidad en tiempo real del estado de la operación
-- Errores por trabajo manual (números mal copiados, avisos que no salen, pasos saltados)
-
-## Diagnóstico gratuito
-
-Ofrecemos un diagnóstico gratuito de 30 minutos para analizar tu operación y mostrarte dónde está el tiempo perdido.
-
-**Agendar:** https://metteoro.com.ar/#diagnostico
-**WhatsApp:** https://wa.me/5493512528373
+- **Llamada inicial sin costo:** https://metteoro.com.ar/#diagnostico (formulario) o WhatsApp https://wa.me/5493512528373
+- **Email:** metteoro.contacto@gmail.com
+- **Respuesta:** en menos de 24hs hábiles.
 
 ## Preguntas frecuentes
 
@@ -83,30 +56,31 @@ No necesariamente. La mayoría de las soluciones se integran con las herramienta
 ### ¿Mi empresa es demasiado pequeña para automatizar?
 No. Muchas veces los mayores beneficios aparecen en equipos pequeños, donde las tareas manuales consumen una parte importante del tiempo disponible.
 
-### ¿Qué tipo de procesos pueden mejorarse?
-Procesos administrativos, comerciales, operativos y de atención al cliente. Si una tarea se repite con frecuencia o depende de copiar información entre sistemas, probablemente exista una oportunidad de mejora.
-
 ### ¿Todo necesita Inteligencia Artificial?
 No. En muchos casos un flujo de trabajo bien diseñado resuelve el problema de forma más simple y económica. Utilizamos IA únicamente cuando aporta valor real.
 
+### ¿Me van a vender un chatbot?
+No: un sistema. El chatbot es una herramienta, no la solución. Diseñamos el recorrido completo: registrar lo que entra, responder lo simple, avisar lo que necesita una persona y seguir cada caso.
+
 ### ¿Cuánto tiempo demora una implementación?
-Depende de la complejidad del proceso. Algunas mejoras pueden implementarse en pocos días, mientras que sistemas más amplios requieren varias semanas.
+Depende de la complejidad del proceso. Algunas mejoras pueden implementarse en pocos días; sistemas más amplios requieren varias semanas.
 
-### ¿Y si no tengo claro qué automatizar?
-Es lo más común. El diagnóstico gratuito está pensado para eso: recorrer tu operación, identificar las fricciones y mostrarte dónde hay oportunidad real.
+### ¿La información de mi empresa está protegida?
+Sí. Trabajamos con buenas prácticas de seguridad y privacidad, y todo queda documentado. Tus cuentas, tus datos y tu facturación quedan a tu nombre.
 
-### ¿Cómo se mide el resultado?
-Se mide en tiempo recuperado, tareas que dejan de depender de una persona y seguimiento que antes no existía. No en promesas genéricas.
+### ¿Tienen casos para mostrar?
+Todavía no, y no inventamos: preferimos no publicar métricas ni testimonios que no existan. Lo que podemos hacer es mostrarte, sobre tu operación real, dónde está el tiempo perdido.
 
-### ¿Trabajan con empresas de cualquier rubro?
-Sí. Los principios son los mismos: tareas repetitivas, información dispersa, procesos que se olvidan. El rubro cambia, el problema no.
+### ¿Cuánto cuesta empezar?
+La llamada inicial es sin costo. Si hay oportunidad, el siguiente paso es el diagnóstico, un servicio con alcance y valor definidos antes de arrancar. Nunca cotizamos a ciegas ni hay costos ocultos.
 
 ## Enlaces
 
 - [Sitio principal](https://metteoro.com.ar/)
 - [Cómo funciona](https://metteoro.com.ar/#como-funciona)
-- [Casos de uso](https://metteoro.com.ar/#casos)
+- [Qué ordenamos](https://metteoro.com.ar/#casos)
+- [Cómo arrancamos](https://metteoro.com.ar/#proceso)
 - [Preguntas frecuentes](https://metteoro.com.ar/#faq)
-- [Agendar diagnóstico gratuito](https://metteoro.com.ar/#diagnostico)
+- [Llamada inicial sin costo](https://metteoro.com.ar/#diagnostico)
 - [Política de privacidad](https://metteoro.com.ar/privacidad.html)
 - [Términos y condiciones](https://metteoro.com.ar/terminos.html)
