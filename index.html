@@ -351,6 +351,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <style>
 /* ============================================================
    METTEORO — tokens
@@ -1814,7 +1815,12 @@ a.ct-val:hover{color:var(--lime)}
               <span class="fld-err">Contanos brevemente tu situación</span>
             </div>
           </div>
-          <div class="dform-foot">
+                    <div class="hp-wrap" aria-hidden="true">
+            <label for="f-website" style="position:absolute;left:-9999px;">No completar</label>
+            <input type="text" id="f-website" name="website" value="" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAFY1TUMKCdmEd6Dv" data-theme="dark" data-appearance="interaction-only" data-language="es" style="margin:6px 0 2px;"></div>
+<div class="dform-foot">
             <p class="dform-note">Respondemos en menos de 24hs hábiles.</p>
             <button type="submit" class="btn btn-1">Enviar mensaje
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15m0 0-5-5m5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -1980,8 +1986,8 @@ const BOOKING_URL = '';
 
 /* 7. Formulario de diagnóstico
    Sin backend: valida, muestra confirmación y guarda el envío.
-   Para recibirlo por mail, poné tu endpoint en FORM_ENDPOINT (Formspree, Basin, webhook propio). */
-const FORM_ENDPOINT = 'https://formspree.io/f/mvkpyepy';
+   Envío directo al workflow n8n (METTEORO_Web_Contacto_v1): persiste en Data Table, avisa por Telegram y manda copia por email. Anti-spam: Turnstile + honeypot + límite de 2 envíos por email en 24h.
+const FORM_ENDPOINT = 'https://n8n.metteoro.com.ar/webhook/metteoro-contacto'; // Webhook propio (n8n) - reemplaza a Formspree; anti-spam: Turnstile + honeypot + limite de envios
 
 (function diagForm(){
   const form=document.getElementById('dform');
@@ -2017,6 +2023,7 @@ const FORM_ENDPOINT = 'https://formspree.io/f/mvkpyepy';
       return;
     }
     const data=Object.fromEntries(new FormData(form).entries());
+    let failMsg = 'No se pudo enviar el mensaje. Probá de nuevo en unos segundos.';
     const btn=form.querySelector('button[type=submit]');
     btn.disabled=true;btn.style.opacity='.6';
 
@@ -2032,13 +2039,20 @@ const FORM_ENDPOINT = 'https://formspree.io/f/mvkpyepy';
     });
 
     if (!response.ok) {
-      throw new Error(`Formspree error: ${response.status}`);
+      failMsg = (response.status === 409 || response.status === 429)
+        ? 'Ya registramos tu mensaje o llegaste al límite de envíos por hoy. Si es urgente, escribinos por WhatsApp.'
+        : (response.status === 403
+          ? 'La verificación de seguridad falló. Recargá la página y probá de nuevo.'
+          : failMsg);
+      const tk = form.querySelector('input[name="cf-turnstile-response"]');
+      if (tk) { tk.value = ''; }
+      throw new Error('error del servidor: ' + response.status);
     }
   } catch (error) {
     console.error('No se pudo enviar el formulario:', error);
     btn.disabled = false;
     btn.style.opacity = '';
-    alert('No se pudo enviar el mensaje. Intentá nuevamente.');
+    alert(failMsg);
     return;
   }
 }
