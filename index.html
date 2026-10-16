@@ -1986,7 +1986,7 @@ const BOOKING_URL = '';
 
 /* 7. Formulario de diagnóstico
    Sin backend: valida, muestra confirmación y guarda el envío.
-   Envío directo al workflow n8n (METTEORO_Web_Contacto_v1): persiste en Data Table, avisa por Telegram y manda copia por email. Anti-spam: Turnstile + honeypot + límite de 2 envíos por email en 24h.
+   Envío directo al workflow n8n (METTEORO_Web_Contacto_v1): persiste en Data Table, avisa por Telegram y manda copia por email. Anti-spam: Turnstile + honeypot + límite de 2 envíos por email en 24h. */
 const FORM_ENDPOINT = 'https://n8n.metteoro.com.ar/webhook/metteoro-contacto'; // Webhook propio (n8n) - reemplaza a Formspree; anti-spam: Turnstile + honeypot + limite de envios
 
 (function diagForm(){
